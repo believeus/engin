@@ -29,34 +29,33 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	.carousel {
     		position: absolute !important;
 		}
+		body {  
+		    margin:0px 0px 0px 115px;
+		    width:960px;
+		}
     </style>
   </head>
   <body>
   <div class="container">
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://v2.bootcss.com/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="...">
-      <div class="carousel-caption">
-        我是春林。。。
-      </div>
+      <img src="/images/index/index4.jpg" alt="...">
+      <img src="/images/index/photo.jpg" alt="...">
+      <img src="/images/index/index4.1.jpg" alt="...">
     </div>
     <div class="item">
-      <img src="http://v2.bootcss.com/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
+      <img src="/images/index/index1.jpg" alt="...">
+      <img src="/images/index/photo.jpg" alt="...">
+      <img src="/images/index/index1.1.jpg" alt="...">
     </div>
     <div class="item">
-      <img src="http://v2.bootcss.com/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
+      <img src="/images/index/index3.jpg" alt="...">
+      <img src="/images/index/photo.jpg" alt="...">
+      <img src="/images/index/index3.1.jpg" alt="...">
     </div>
-    ...
   </div>
 
   <!-- Controls -->
@@ -70,7 +69,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </a>
 </div>
 </div>
-
-   
   </body>
 </html>
